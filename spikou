@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spikou - Page Personnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: red;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: red;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: red;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: red;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>spikou</h1>
+        <p>Bienvenue sur ma page personnelle</p>
+    </header>
+    <nav>
+        <a href="#about">À Propos</a>
+        <a href="#games">Jeux Vidéo</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>À Propos de moi</h2>
+        <p>Bienvenue sur mon site ! Je suis passionné par les jeux vidéo depuis mon enfance.</p>
+        <p>J'aime explorer de nouveaux mondes virtuels, défier des ennemis redoutables et résoudre des énigmes complexes.</p>
+    </section>
+    <section id="games">
+        <h2>Mes Jeux Préférés</h2>
+        <ul>
+            <li>The Legend of Zelda: Breath of the Wild</li>
+            <li>The Witcher 3: Wild Hunt</li>
+            <li>Dark Souls</li>
+            <li>Red Dead Redemption 2</li>
+            <li>Super Mario Odyssey</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>N'hésitez pas à me contacter si vous souhaitez discuter de jeux vidéo ou de tout autre sujet intéressant !</p>
+        <p>Email: spikou@example.com</p>
+    </section>
+    <footer>
+        <p>Made with ❤️ by spikou</p>
+    </footer>
+</body>
+</html>
